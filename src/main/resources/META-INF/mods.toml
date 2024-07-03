@@ -1,0 +1,26 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="GNU General Public License version 3 (GPLv3)"
+
+[[mods]]
+modId="more_echancements"
+version="1.0.0"
+displayName="More Echancements"
+displayURL="https://github.com/deleted-src/More-Enchantments"
+logoFile="logo.png"
+credits="Made using MCreator"
+authors="deleted-src"
+description="Just a mod that adds a bunch of various enchantments"
+
+# Start of user code block mod configuration
+# End of user code block mod configuration
+
+[[dependencies.more_echancements]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1]"
+    ordering="NONE"
+    side="BOTH"
+
+
+
