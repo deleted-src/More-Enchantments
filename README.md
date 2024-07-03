@@ -2,7 +2,7 @@
 This repo contains source code for my minecraft mod.
 The only version this mod will be published to is Forge 1.20.1
 
-## CURRENTLY ENCHANTMENTS ADDED:
+### Currently added Enchantments:
 - **Curse of Stone** - Gives you random amount of cobblestone between 12 and 24 upon killing any mob
 - 
 
