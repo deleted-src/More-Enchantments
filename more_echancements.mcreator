@@ -1,0 +1,104 @@
+{
+  "mod_elements": [
+    {
+      "name": "Miner",
+      "type": "enchantment",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "curse_of_stone",
+      "metadata": {
+        "files": [
+          "src/main/java/net/more_enchantments/enchantment/MinerEnchantment.java"
+        ]
+      }
+    },
+    {
+      "name": "MinerEnchantment",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stone_procedure",
+      "metadata": {
+        "files": [
+          "src/main/java/net/more_enchantments/procedures/MinerEnchantmentProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "CriticalStrike",
+      "type": "enchantment",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "critical_strike",
+      "metadata": {
+        "files": [
+          "src/main/java/net/more_enchantments/enchantment/CriticalStrikeEnchantment.java"
+        ]
+      }
+    },
+    {
+      "name": "CriticalStrikeEnchantment",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "critical_strike_enchantment",
+      "metadata": {
+        "files": [
+          "src/main/java/net/more_enchantments/procedures/CriticalStrikeEnchantmentProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "tag_elements": {},
+  "language_map": {
+    "en_us": {
+      "enchantment.more_echancements.curse_of_stone": "Curse of Stone",
+      "enchantment.more_echancements.critical_strike": "Critical Strike"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "more_echancements",
+    "modName": "More Echancements",
+    "version": "1.0.0",
+    "description": "Just a mod that adds a bunch of various enchantments",
+    "author": "deleted-src",
+    "websiteURL": "https://github.com/deleted-src/More-Enchantments",
+    "license": "GNU General Public License version 3 (GPLv3)",
+    "serverSideOnly": false,
+    "modPicture": "minecraft_title",
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.20.1",
+    "credits": "Made using MCreator",
+    "modElementsPackage": "net.more_enchantments"
+  },
+  "mcreatorVersion": 202400118518
+}
