@@ -41,9 +41,9 @@ public class CriticalStrikeEnchantmentProcedure {
 		ItemStack CURRENTTOOL = ItemStack.EMPTY;
 		double three = 0;
 		CURRENTTOOL = (sourceentity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY);
-		three = 15;
+		three = 10;
 		if (EnchantmentHelper.getItemEnchantmentLevel(MoreEchancementsModEnchantments.CRITICAL_STRIKE.get(), CURRENTTOOL) != 0 && !sourceentity.onGround()) {
-			if (Mth.nextInt(RandomSource.create(), 1, 15) == three) {
+			if (Mth.nextInt(RandomSource.create(), 1, 10) == three) {
 				if (world instanceof ServerLevel _level) {
 					LightningBolt entityToSpawn = EntityType.LIGHTNING_BOLT.create(_level);
 					entityToSpawn.moveTo(Vec3.atBottomCenterOf(BlockPos.containing(entity.getX(), entity.getY(), entity.getZ())));;

@@ -1,4 +1,9 @@
 {
   "enchantment.more_echancements.curse_of_stone": "Curse of Stone",
-  "enchantment.more_echancements.critical_strike": "Critical Strike"
+  "advancements.you_can_see_it.descr": "Reduce inflicted damage by using Totem of Undying with Adaptation Enchantment",
+  "enchantment.more_echancements.adaptation": "Adaptation",
+  "enchantment.more_echancements.combusting_miner": "Combusting Miner",
+  "enchantment.more_echancements.freezing_hit": "Freezing Hit",
+  "enchantment.more_echancements.critical_strike": "Critical Strike",
+  "advancements.you_can_see_it.title": "You can see my technique, Mahoraga!"
 }
